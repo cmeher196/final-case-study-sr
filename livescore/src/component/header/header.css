@@ -1,0 +1,17 @@
+.nav-item{
+    text-decoration: none;
+}
+
+li{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+Link{
+    text-decoration: none;
+}
+
+.nav-view{
+    padding-left:20px ;
+}

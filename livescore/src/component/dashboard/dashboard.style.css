@@ -1,0 +1,220 @@
+/* body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif
+} */
+
+ /* .main-container{
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+}
+
+.card-container {
+    width: 30vw;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #0d47a1, black);
+    ;
+    margin: auto;
+     position: relative;
+     top: 15vh;
+         padding: 2vw;
+    color: white;
+    display: inline-block;
+}
+
+
+
+.flag {
+    height: 3vw;
+    width: 4vw
+}
+
+.overs {
+    color: silver;
+    position: relative;
+    bottom: 1vw
+}
+
+.score {
+    position: relative;
+    bottom: 0.5vw;
+    color: white
+}
+
+span {
+    color: white
+}
+
+tr {
+    border: 2px solid white
+}
+
+.right1 {
+    text-align: right
+}
+
+.head {
+    font-size: 1.3vw
+}
+
+.day {
+    font-size: 1vw;
+    color: silver
+}
+
+.target {
+    font-size: 1vw
+}
+
+.res {
+    font-size: 1.5vw
+}
+
+.match {
+    color: silver
+}
+
+@media only screen and (max-width: 425px) {
+    .main {
+        width: 100vw;
+        height: 100vw;
+        padding: 4vw
+    }
+
+    .flag {
+        width: 10vw;
+        height: 8vw
+    }
+
+    .head {
+        font-size: 5vw
+    }
+
+    .day {
+        font-size: 4vw
+    }
+
+    .target {
+        font-size: 4vw
+    }
+
+    .res {
+        font-size: 5vw
+    }
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container-dashboard{
+	 background: #d6d4fa;
+     
+     /* background-image: linear-gradient(to bottom right, #0d47a1, black); */
+}
+
+.wrapper .header{
+	width: 100%;
+	height: 50px;
+	background: black;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 900;
+}
+
+.cards_wrap{
+	/* padding: 20px; */
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cards_wrap .card_item{
+	padding: 15px 25px;
+	width: 30%;
+}
+
+.cards_wrap .card_inner{
+	/* background: #fff; */
+	background-image: linear-gradient(to bottom right, #0d47a1, black);
+	border-radius: 5px;
+	/* padding: 35px 20px; */
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	min-width: 225px;
+	min-height: 315px;
+	max-height: 370px;
+	width: 100%;
+}
+
+/* .cards_wrap .card_item img{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 5px;
+} */
+
+.cards_wrap .card_item .role_name{
+	color: #e36686;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 20px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	text-align: center;
+}
+
+.cards_wrap .card_item .real_name{
+	color: #b6c0c2;
+	font-size: 12px;
+	font-weight: 100;
+	margin: 5px 0 10px;
+}
+
+.cards_wrap .card_item .film{
+	font-size: 14px;
+	line-height: 24px;
+	color: whitesmoke
+}
+
+table{
+	width: 100%;
+	height: 160px;
+}
+
+@media screen and (max-width: 1024px){
+	.cards_wrap .card_item{
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.cards_wrap .card_item{
+		width: 50%;
+	}
+	.wrapper .header{
+		font-size: 16px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 568px){
+	.cards_wrap .card_item{
+		width: 100%;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+}
